@@ -1,0 +1,201 @@
+@import url('https://fonts.google.com/specimen/Inconsolata');
+*
+
+.titulo{
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    text-align:center;
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+body{
+    background: rgb(146, 146, 146);
+background: linear-gradient(0deg, rgba(73, 72, 72, 0.633) 0%, rgba(58, 57, 57, 0.367) 47%, rgba(59, 59, 59, 0.765) 100%),url(../img/fondo.jpg);
+}
+
+legend{
+    color:#fff;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.seleccion {
+    color:#fff;
+    font-size: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+fieldset{    
+    background-color: rgba(0, 0, 0, 0.493);
+    font-size: 20px;
+    width: 96%;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+#cont1, #cont2, #cont3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#cont2{
+    text-align: left;
+}
+
+#cont3{
+    text-align: center;
+}
+
+#cont2 input{
+    color: white;
+    width: 67%;
+    font-size: 90%;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+#cont2 textarea{
+    color: white;
+    font-size: 70%;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+p{    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#ok{
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: rgba(202, 0, 44, 0.863);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Handlee', cursive;
+    color: white;
+    font-size: 15px;
+}
+
+#bot{
+    text-align: center;
+    font-family: 'Handlee', cursive; 
+}
+
+option{
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Handlee', cursive;
+}
+
+
+
+p, label{
+    color: rgb(255, 255, 255);
+    text-align: left;
+ }
+ label{
+    color: rgb(255, 253, 253);
+    text-align: left;
+ }
+
+
+/*bootstrap*/
+
+.card {
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.card-title{
+    color: #fff;
+}
+
+.card-body label{
+    color: rgb(255, 255, 255);
+}
+.nav-pills {
+    background-color: rgba(0, 0, 0, 0.425);
+}
+.nav-pills a{
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #85878a;
+}
+
+/* Footer */
+
+footer{
+    background:  #00000063;
+    padding-bottom: 0.1px;
+    
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    height: 100px;
+}
+
+.contact-us{
+    width: 40%;
+    color: rgb(248, 248, 248);
+}
+
+.brand{
+    font-weight: 40;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 60;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.social-media-icon:hover{
+    background: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(255, 255, 255);
+}
